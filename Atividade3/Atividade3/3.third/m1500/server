@@ -1,0 +1,25 @@
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Accepted connection from 127.0.0.1, port 51896
+[  5] local 127.0.0.1 port 5201 connected to 127.0.0.1 port 51898
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec  4.97 GBytes  42.7 Gbits/sec                  
+[  5]   1.00-2.00   sec  5.22 GBytes  44.9 Gbits/sec                  
+[  5]   2.00-3.00   sec  5.24 GBytes  45.0 Gbits/sec                  
+[  5]   3.00-4.00   sec  5.14 GBytes  44.2 Gbits/sec                  
+[  5]   4.00-5.00   sec  5.22 GBytes  44.9 Gbits/sec                  
+[  5]   5.00-6.00   sec  5.17 GBytes  44.4 Gbits/sec                  
+[  5]   6.00-7.00   sec  5.14 GBytes  44.2 Gbits/sec                  
+[  5]   7.00-8.00   sec  5.21 GBytes  44.7 Gbits/sec                  
+[  5]   8.00-9.00   sec  5.10 GBytes  43.8 Gbits/sec                  
+[  5]   9.00-10.00  sec  5.09 GBytes  43.7 Gbits/sec                  
+[  5]  10.00-10.04  sec   223 MBytes  44.4 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-10.04  sec  0.00 Bytes  0.00 bits/sec                  sender
+[  5]   0.00-10.04  sec  51.7 GBytes  44.2 Gbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated

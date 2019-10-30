@@ -1,0 +1,19 @@
+Connecting to host localhost, port 5201
+[  4] local 127.0.0.1 port 51606 connected to 127.0.0.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.19 GBytes  44.5 Gbits/sec    0   1.25 MBytes       
+[  4]   1.00-2.00   sec  5.19 GBytes  44.5 Gbits/sec    0   1.62 MBytes       
+[  4]   2.00-3.00   sec  5.19 GBytes  44.6 Gbits/sec    0   2.19 MBytes       
+[  4]   3.00-4.00   sec  5.25 GBytes  45.1 Gbits/sec    0   2.50 MBytes       
+[  4]   4.00-5.00   sec  5.16 GBytes  44.3 Gbits/sec    0   2.87 MBytes       
+[  4]   5.00-6.00   sec  5.21 GBytes  44.8 Gbits/sec    0   2.87 MBytes       
+[  4]   6.00-7.00   sec  5.21 GBytes  44.7 Gbits/sec    0   2.87 MBytes       
+[  4]   7.00-8.00   sec  5.21 GBytes  44.7 Gbits/sec    0   4.31 MBytes       
+[  4]   8.00-9.00   sec  5.16 GBytes  44.3 Gbits/sec    0   4.31 MBytes       
+[  4]   9.00-10.00  sec  5.19 GBytes  44.6 Gbits/sec    0   4.31 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  52.0 GBytes  44.6 Gbits/sec    0             sender
+[  4]   0.00-10.00  sec  52.0 GBytes  44.6 Gbits/sec                  receiver
+
+iperf Done.
