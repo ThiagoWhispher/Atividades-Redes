@@ -13,11 +13,11 @@ class UDPServer {
 	
 	DatagramSocket serverSocket = new DatagramSocket(9876); 
 	
-	byte[] receiveData = new byte[1024]; 
-	byte[] sendData  = new byte[1024]; 
-	
 	while(true) 
 	    { 
+		
+		byte[] receiveData = new byte[1024]; 
+		byte[] sendData  = new byte[1024]; 
 		
 		DatagramPacket receivePacket = 
 		    new DatagramPacket(receiveData, receiveData.length); 
@@ -30,7 +30,7 @@ class UDPServer {
 		
 		String recvOp = sentence.toUpperCase(); 
 
-		System.out.println("Operacao: " + recvOp);
+		System.out.println("Operação recebida [" + recvOp + "]");
 
 		String[] operacao = recvOp.split(" ");
 

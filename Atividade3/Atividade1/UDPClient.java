@@ -36,7 +36,7 @@ class UDPClient {
 	String modifiedSentence = 
 	    new String(receivePacket.getData()); 
 	
-	System.out.println("FROM SERVER:" + modifiedSentence); 
+	System.out.println("Resposta do servidor [" + modifiedSentence + "]"); 
 	clientSocket.close(); 
     } 
 } 
