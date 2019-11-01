@@ -5,7 +5,7 @@ Usage: iperf [-s|-c host] [options]
 ### Server specific:
   **-s, --server**          run in server mode
 ### Client specific:
-  **-c, --client <host>**   run in client mode, connecting to <host>
+  **-c, --client** _host_   run in client mode, connecting to *host*
        
   **-P, --parallel** #      number of parallel client streams to run
   
